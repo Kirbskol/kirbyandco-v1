@@ -9,7 +9,7 @@ export const PageContainer = ({
 }) => {
   return (
     <div
-      className={`flex flex-${direction} min-[320px]:max-w-fit md:w-full min-h-screen p-3 pt-40 ${classes}`}
+      className={`flex flex-${direction} min-[320px]:max-w-fit md:w-full min-h-screen p-3 pt-35 ${classes}`}
     >
       {children}
     </div>

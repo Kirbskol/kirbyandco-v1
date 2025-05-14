@@ -20,7 +20,7 @@ const sizes = {
   h3: "text-2xl sm:text-3xl font-semibold",
   h4: "text-xl sm:text-2xl font-semibold",
   h5: "text-lg sm:text-xl font-semibold",
-  h6: "text-base sm:text-xl font-semibold",
+  h6: "text-base sm:text-xl",
   body: "text-base sm:text-lg",
   "body-small": "text-sm sm:text-base",
   small: "text-xs sm:text-sm",

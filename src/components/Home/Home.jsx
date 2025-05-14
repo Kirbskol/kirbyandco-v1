@@ -1,17 +1,17 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { Logo } from '../../Design/Logo'
 import { PageContainer } from '../../Design/Container'
+import { WelcomeContainer } from './HomeComponents'
 
 export const Home = () => {
 
   return (
     <>
+    <div className="flex justify-center">
       <PageContainer>
-        <div className="flex w-full text-gray-100 justify-center">
-           
-        </div>
+        <WelcomeContainer />
       </PageContainer>
+    </div>
     </>
   )
 }
