@@ -1,5 +1,6 @@
 export const skolCDN_URL = "https://res.cloudinary.com/kirbskol/image/upload/v1747230251/"
 export const logo_URL = "logo_dxso9j.png"
+export const menuLogo_URL = "menulogo_uz6p7q.png"
 export const galleryImages_URL = {
   1: "IMG-20250510-WA0024_tf0vdw.jpg",
   2: "IMG-20250510-WA0022_fbrbsm",
