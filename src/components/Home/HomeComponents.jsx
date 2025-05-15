@@ -33,20 +33,20 @@ export const HomeWelcome = () => {
         backgroundColor={backgroundColor} 
         lighterBackgroundColor={kirbyBlue} 
         borderColor={borderColor}
-        classes="w-[95vw] sm:w-[50em]"
+        classes="w-[95vw] sm:w-[50em] [@media(min-width:2040px)]:w-[65em]"
         header="Keep it Local, Keep it Frinton">
           <div className="flex flex-col justify-start gap-4 sm:h-full h-[45em]">
-            <div className="flex border-b pb-4">
+            <div className="flex border-b pb-4 [@media(min-width:2040px)]:pb-8">
               <Text variant="h6" classes="">
                 {welcomeHeader}
               </Text>
             </div>
-            <div className="flex">
+            <div className="flex [@media(min-width:2040px)]:pt-4">
               <Text variant="body">
                 {welcomeDescription}
               </Text>
             </div>
-            <div className="flex">
+            <div className="flex [@media(min-width:2040px)]:pt-12">
               <Text variant="body" classes="font-semibold">
                 Services we offer:
               </Text>
@@ -57,7 +57,7 @@ export const HomeWelcome = () => {
                 return (
                   <ServiceCards 
                     header={service.service} 
-                    classes={`w-[7.5em] sm:w-[14em] hover:cursor-default hover:bg-[${backgroundColor}]`}
+                    classes={`w-[7.5em] sm:w-[14em] [@media(min-width:2040px)]:w-[16em] hover:cursor-default hover:bg-[${backgroundColor}]`}
                   >
                     <div key={service.id} className="text-sm">
                       <Text variant="alternate">
