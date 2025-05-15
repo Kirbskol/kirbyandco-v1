@@ -33,7 +33,7 @@ export const HomeWelcome = () => {
         backgroundColor={backgroundColor} 
         lighterBackgroundColor={kirbyBlue} 
         borderColor={borderColor}
-        classes="w-[95vw] sm:w-[50em] [@media(min-width:2040px)]:w-[60em]"
+        classes="w-[95vw] sm:w-[50em] [@media(min-width:2040px)]:w-[65em]"
         header="Keep it Local, Keep it Frinton">
           <div className="flex flex-col justify-start gap-4 sm:h-full h-[45em]">
             <div className="flex border-b pb-4 [@media(min-width:2040px)]:pb-8">
