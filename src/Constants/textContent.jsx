@@ -9,4 +9,4 @@ export const welcomeServices = [
   { id: 6, service: "Blockages", description: "Clearing drains and pipes to prevent costly issues." },
 ]
 export const welcomeClose = "Whether you need a quick fix or a full renovation, we bring expertise, efficiency, and friendly service to every project."
-export const welcomePhone = " Get in Touch – We’re here to help! Contact us today to discuss your plumbing and maintenance needs."
+export const welcomePhone = "We’re here to help! Contact us today to discuss your plumbing and maintenance needs."

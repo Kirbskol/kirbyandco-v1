@@ -18,9 +18,9 @@ export const SideMenuItem = ({ label, click, toggle }) => {
     <li>
       <button
         onClick={handleClick}
-        className="flex w-full p-2 text-white rounded-lg hover:bg-[#242424] hover:cursor-pointer"
+        className="flex w-full justify-center p-2 text-white rounded-lg hover:bg-[#242424] hover:cursor-pointer"
       >
-        <Text variant="h4" className="ml-3">{label}</Text>
+        <Text variant="h4" className="px-4">{label}</Text>
       </button>
     </li>
   );
