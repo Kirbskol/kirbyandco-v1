@@ -10,9 +10,7 @@ export const Home = () => {
       <div className="flex justify-center">
         <PageContainer>
           <div className="flex flex-col-reverse sm:flex-row">
-            <div className="flex flex-col">
-              <HomeReel />
-            </div>
+            <HomeReel />
             <HomeWelcome />
             <HomeContact />
           </div>
