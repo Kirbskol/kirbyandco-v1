@@ -1,12 +1,51 @@
-# React + Vite
+# Kirby & Co Plumbing & Maintenance Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for **Kirby & Co**, a family-run plumbing and maintenance company based in Frinton-on-Sea and serving the surrounding areas. This project is a modern, responsive website designed to showcase our services, provide contact information, and help local customers connect with us easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚧 Work In Progress
 
-## Expanding the ESLint configuration
+This website is currently **under active development**. Features, content, and design are subject to change as we continue to improve the site.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React**: Modern JavaScript library for building user interfaces.
+- **Vite**: Lightning-fast development server and build tool for modern web projects.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development and responsive design.
+- **React Router**: Declarative routing for React applications.
+- **ESLint**: Linting utility to maintain code quality and consistency.
+
+---
+
+## 📦 Project Structure
+
+- `src/` — Main source code for the React app
+  - `components/` — Reusable UI components (Home, SideMenu, etc.)
+  - `Design/` — Design system components and styles
+  - `Constants/` — Static content and configuration (e.g., service descriptions, image URLs)
+- `public/` — Static assets
+- `tailwind.config.js` — Tailwind CSS configuration
+- `vite.config.js` — Vite configuration
+
+---
+
+## 🚀 Getting Started
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+
+2. **Run the development server:**
+   npm run dev
+
+3. **Build for production:**
+   npm run build
+
+## 📋 Features
+- Responsive design for mobile and desktop
+- Service descriptions and gallery
+- Easy-to-find contact information
+- Simple, clean navigation
