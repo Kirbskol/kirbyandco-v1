@@ -28,7 +28,7 @@ const sizes = {
   h4: "text-xl sm:text-2xl font-semibold",
   h4alt: "text-sm sm:text-2xl 4xl:text-3xl font-semibold",
   h5: "text-lg sm:text-xl font-semibold",
-  h6: "text-base sm:text-xl [@media(min-width:2040px)]:",
+  h6: "text-base sm:text-xl [@media(min-width:2040px)]:text-2xl",
   body: "text-base sm:text-lg [@media(min-width:2040px)]:text-2xl",
   "body-small": "text-sm sm:text-base",
   small: "text-xs sm:text-sm",
