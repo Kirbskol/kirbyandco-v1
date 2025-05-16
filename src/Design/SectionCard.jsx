@@ -13,7 +13,7 @@ export const SectionCards = ({
 
   return (
     <div
-      className={`flex flex-col rounded-lg p-2 py-4 sm:py-4 sm:p-4 max-w-[60em] h-full shadow-md border ${classes}`}
+      className={`flex flex-col rounded-lg p-2 py-4 sm:py-4 sm:p-4 w-full max-w-[65em] h-full shadow-md border ${classes}`}
       style={{ backgroundColor: lighterBackgroundColor, borderColor }}
     >
       <div

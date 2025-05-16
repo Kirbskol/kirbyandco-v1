@@ -28,12 +28,12 @@ export const HomeWelcome = () => {
 
   return(
   <>
-    <div className="flex justify-center p-2">    
+    <div className="flex justify-center p-2 sm:w-1/2">    
       <SectionCards 
         backgroundColor={backgroundColor} 
         lighterBackgroundColor={kirbyBlue} 
         borderColor={borderColor}
-        classes="w-[95vw] sm:w-[50em] [@media(min-width:2040px)]:w-[65em]"
+        classes="w-[95vw] sm:w-full [@media(min-width:2040px)]:w-[65em]"
         header="Keep it Local, Keep it Frinton">
           <div className="flex flex-col justify-start gap-4 sm:h-full h-[45em]">
             <div className="flex border-b pb-4 [@media(min-width:2040px)]:pb-8">
@@ -57,7 +57,7 @@ export const HomeWelcome = () => {
                 return (
                   <ServiceCards 
                     header={service.service} 
-                    classes={`w-[7.5em] sm:w-[14em] [@media(min-width:2040px)]:w-[16em] hover:cursor-default hover:bg-[${backgroundColor}]`}
+                    classes={`w-[7em] h-full sm:w-[14em] [@media(min-width:2040px)]:w-[16em] hover:cursor-default hover:bg-[${backgroundColor}]`}
                   >
                     <div key={service.id} className="text-sm">
                       <Text variant="alternate">
@@ -105,13 +105,13 @@ export const HomeReel = () => {
   }
 
   return (
-    <div className="flex justify-center p-2">
+    <div className="flex justify-center p-2 sm:w-1/4">
       <SectionCards
         backgroundColor={backgroundColor}
         lighterBackgroundColor={kirbyBlue}
         borderColor={borderColor}
         header="Gallery"
-        classes="w-[95vw] sm:w-[30em]"
+        classes="w-[95vw] sm:w-full"
       >
         <div className="flex flex-col items-center">
           <div className="relative flex items-center justify-center">
@@ -150,65 +150,66 @@ export const HomeContact = () => {
 
   return(
   <>
-    <div className="flex flex-col justify-center items-center p-2">    
+    <div className="flex flex-col justify-around sm:w-1/4 items-center p-2">    
       <SectionCards 
         backgroundColor={backgroundColor} 
         lighterBackgroundColor={kirbyBlue} 
         borderColor={borderColor}
         header="Get In Touch!"
-        classes="w-[95vw] sm:w-[26em]">
-        <div className="hidden sm:flex flex-col justify-center gap-4">
-          <div className="flex border-b pb-4">
-            <Text variant="h6" classes="">
-              {welcomePhone}
-            </Text>
-          </div>
-          <div className="flex">
-            <Text variant="body">
-              {welcomeClose}
-            </Text>
-          </div>
-        </div>
-        <div className="flex flex-col items-center w-full">
-          <ContactCards 
-            backgroundColor={backgroundColor} 
-            lighterBackgroundColor={kirbyBlue} 
-            borderColor={borderColor}
-            header="Call us on:"
-            classes="sm:pt-18"
-            category="phone">
-            <div className="flex sm:flex-col w-full sm:h-[8em] justify-around items-center">
-              <a href="tel:+441255850086" className="sm:pb-2">
-                <Text variant="h2alt" classes="hover:cursor-pointer hover:text-[#E5AA70]">
-                  01255 850086
-                </Text>
-              </a>
-              <div className="hidden sm:flex border w-full" />
-              <a href="tel:+447399931444" className="sm:pt-2">
-                <Text variant="h2alt" classes="hover:cursor-pointer hover:text-[#E5AA70]">
-                  07399 931444
-                </Text>
-              </a>
+        classes="w-[95vw] sm:w-full sm:max-w-[40em]">
+        <div className="flex flex-col gap-10">
+          <div className="hidden sm:flex flex-col justify-center gap-4">
+            <div className="flex border-b pb-4">
+              <Text variant="h6" classes="">
+                {welcomePhone}
+              </Text>
             </div>
-          </ContactCards>
-          <ContactCards 
-            backgroundColor={backgroundColor} 
-            lighterBackgroundColor={kirbyBlue} 
-            borderColor={borderColor}
-            header="Email us at:"
-            classes=""
-            category="mail">
-            <div className="flex flex-col w-full items-center">
-              <a href="mailto:info@kirbyandcoplumbing.com" className="pb-2">
-                <Text variant="h4" classes="hover:cursor-pointer hover:text-[#E5AA70] font-semibold">
-                  info@kirbyandcoplumbing.com
-                </Text>
-              </a>
+            <div className="flex">
+              <Text variant="body">
+                {welcomeClose}
+              </Text>
             </div>
-          </ContactCards>
+          </div>
+          <div className="flex flex-col items-center w-full">
+            <ContactCards 
+              backgroundColor={backgroundColor} 
+              lighterBackgroundColor={kirbyBlue} 
+              borderColor={borderColor}
+              header="Call us on:"
+              classes=""
+              category="phone">
+              <div className="flex sm:flex-col w-full sm:h-[8em] justify-around items-center">
+                <a href="tel:+441255850086" className="sm:pb-2">
+                  <Text variant="h2alt" classes="hover:cursor-pointer hover:text-[#E5AA70]">
+                    01255 850086
+                  </Text>
+                </a>
+                <div className="hidden sm:flex border w-full" />
+                <a href="tel:+447399931444" className="sm:pt-2">
+                  <Text variant="h2alt" classes="hover:cursor-pointer hover:text-[#E5AA70]">
+                    07399 931444
+                  </Text>
+                </a>
+              </div>
+            </ContactCards>
+            <ContactCards 
+              backgroundColor={backgroundColor} 
+              lighterBackgroundColor={kirbyBlue} 
+              borderColor={borderColor}
+              header="Email us at:"
+              classes=""
+              category="mail">
+              <div className="flex flex-col w-full items-center">
+                <a href="mailto:info@kirbyandcoplumbing.com" className="pb-2">
+                  <Text variant="body" classes="hover:cursor-pointer hover:text-[#E5AA70] font-semibold">
+                    info@kirbyandcoplumbing.com
+                  </Text>
+                </a>
+              </div>
+            </ContactCards>
+          </div>
         </div>
       </SectionCards>
-
     </div>   
   </>
   )

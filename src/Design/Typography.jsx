@@ -21,9 +21,9 @@ const tags = {
 const sizes = {
   h1: "text-4xl sm:text-5xl font-semibold",
   h2: "text-3xl sm:text-4xl font-semibold",
-  h2alt: "text-xl sm:text-4xl font-semibold",
+  h2alt: "text-xl sm:text-3xl font-semibold",
   h3: "text-2xl sm:text-3xl font-semibold",
-  h3alt: "text-base sm:text-3xl text-4xl font-semibold",
+  h3alt: "text-base sm:text-3xl font-semibold",
   h3alt2: "text-base sm:text-3xl [@media(min-width:2040px)]:text-4xl font-semibold",
   h4: "text-xl sm:text-2xl font-semibold",
   h4alt: "text-sm sm:text-2xl 4xl:text-3xl font-semibold",
